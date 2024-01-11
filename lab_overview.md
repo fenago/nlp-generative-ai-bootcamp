@@ -1,6 +1,6 @@
 <img align="right" src="./logo.png">
 
-<h2><span style="color:red;">Natural Language Processing </span></h2>
+<h2><span style="color:red;">Natural Language Processing (NLP) and Generative AI Boot Camp</span></h2>
 
 ### Description
 
@@ -32,9 +32,9 @@ Labs for this course are available at endpoints shared below. Update `<host-ip>`
 		* http://<host-ip>/lab/workspaces/lab2_Feature_Extraction
 3. ##### Developing a Text Classifier
 		* http://<host-ip>/lab/workspaces/lab3_Classifier
-4. ##### Collecting Text Data with Web Scraping and APIs
+4. ##### Generative AI (APIs)
 		* http://<host-ip>/lab/workspaces/lab4_Text_Data
-5. ##### Topic Modeling
+5. ##### Creating Assistants
 		* http://<host-ip>/lab/workspaces/lab5_Modeling
 6. ##### Vector Representation
 		* http://<host-ip>/lab/workspaces/lab6_Vector
