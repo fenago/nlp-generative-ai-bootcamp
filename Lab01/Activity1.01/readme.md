@@ -1,7 +1,7 @@
 # Activity 1.01: Preprocessing of Raw Text
 We have a text corpus that is in an improper format. In this activity, we will perform all the preprocessing steps that were discussed earlier to get some meaning out of the text.
 
-The text corpus, file.txt, can be found at this location: [https://github.com/fenago/natural-language-processing-workshop/blob/master/Lab01/data/file.txt](https://github.com/fenago/natural-language-processing-workshop/blob/master/Lab01/data/file.txt
+The text corpus, file.txt, can be found at this location: [https://github.com/fenago/nlp-generative-ai-bootcamp/blob/master/Lab01/data/file.txt](https://github.com/fenago/nlp-generative-ai-bootcamp/blob/master/Lab01/data/file.txt
 )
 
 After downloading the file, place it in the same directory as the notebook.

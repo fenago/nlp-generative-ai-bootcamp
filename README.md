@@ -1,5 +1,5 @@
 # The Natural Language Processing 
-Lab Environment: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fenago/natural-language-processing-workshop/HEAD)
+Lab Environment: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fenago/nlp-generative-ai-bootcamp/HEAD)
 ### Requirements and Setup
 
 To get started with the project files, you'll need to:

@@ -10,7 +10,7 @@ In this activity, you will extract the most frequently occurring keywords from a
 
 ### Data
 
-The news article used in this activity is available at the following link: [news_article.txt](https://github.com/fenago/natural-language-processing-workshop/blob/master/Lab02/data/news_article.txt).
+The news article used in this activity is available at the following link: [news_article.txt](https://github.com/fenago/nlp-generative-ai-bootcamp/blob/master/Lab02/data/news_article.txt).
 
 ### Steps to Follow
 

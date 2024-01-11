@@ -2133,7 +2133,7 @@ of frequently occurring words.
 **Note**
 
 The text\_corpus.txt file that\'s being used in this activity can be
-found at `~/work/natural-language-processing-workshop/Lab02/data`
+found at `~/work/nlp-generative-ai-bootcamp/Lab02/data`
 
 Follow these steps to implement this activity:
 

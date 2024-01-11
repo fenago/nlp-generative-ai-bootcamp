@@ -10,7 +10,7 @@ In this activity, you will build an end-to-end text classifier to determine whet
 
 ### Data
 
-The dataset for this activity is available at the following link: [news_political_dataset.csv](https://github.com/fenago/natural-language-processing-workshop/blob/master/Lab03/data/news_political_dataset.csv).
+The dataset for this activity is available at the following link: [news_political_dataset.csv](https://github.com/fenago/nlp-generative-ai-bootcamp/blob/master/Lab03/data/news_political_dataset.csv).
 
 ### Steps to Follow
 

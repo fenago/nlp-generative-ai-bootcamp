@@ -9,7 +9,7 @@ In this activity, you will create a word cloud for the 50 most frequent words in
 
 ### Data
 
-The dataset used in this activity is available at the following link: [text_corpus.txt](https://github.com/fenago/natural-language-processing-workshop/blob/master/Lab02/data/text_corpus.txt
+The dataset used in this activity is available at the following link: [text_corpus.txt](https://github.com/fenago/nlp-generative-ai-bootcamp/blob/master/Lab02/data/text_corpus.txt
 ).
 
 ### Steps to Follow
