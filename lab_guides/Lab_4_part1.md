@@ -35,6 +35,10 @@ achieve.
     understanding and object relationships, it is not optimized for
     precise spatial localization tasks.
 
+# Lab Solution
+
+Solution notebook for this lab can be found at `~/work/nlp-generative-ai-bootcamp/Lab04/openai_gpt4_vision.ipynb`
+
 # Using GPT-4V: From URLs to Local Images
 
 # Analyzing Images from URLs
