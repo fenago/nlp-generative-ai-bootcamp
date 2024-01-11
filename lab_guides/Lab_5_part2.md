@@ -1,8 +1,5 @@
 
-# Creativity with AI: Creating Images with DALL·E APIs
-
-
-![](./images/1_8txPISBrcaXrpUFAl4w95w.jpg)
+# Lab: Creativity with AI - Creating Images with DALL·E APIs
 
 Welcome to the mesmerizing world of AI-generated art! Today, we're going
 to explore how we can use OpenAI's DALL·E APIs to create, edit, and
