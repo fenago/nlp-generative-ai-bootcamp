@@ -49,7 +49,6 @@ on platforms like GitHub or Wikimedia Commons. Here's how you can use
 it:
 
 ```
-!pip install openai
 import os
 
 # Prompt for the API key
@@ -110,16 +109,13 @@ not hosted online:
 import base64
 import requests
 
-# OpenAI API Key
-# api_key = "YOUR_OPENAI_API_KEY"
-
 # Function to encode the image
 def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
 
 # Path to your image
-image_path = "/content/drlee_dabi.jpg"
+image_path = "./drlee_dabi.jpg"
 
 # Getting the base64 string
 base64_image = encode_image(image_path)

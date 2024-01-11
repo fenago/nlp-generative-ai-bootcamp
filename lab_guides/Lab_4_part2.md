@@ -61,7 +61,7 @@ response.stream_to_file(speech_file_path)
 from IPython.display import Audio
 
 # Play the generated audio file
-Audio("/content/speech.mp3")
+Audio("./speech.mp3")
 ```
 
 # Explanation 
@@ -119,14 +119,11 @@ Use the OpenAI API to translate `my_speech` to
 Spanish:
 
 ```
-# Ensure the OpenAI library is installed
-!pip install --upgrade openai
-
 import openai
 
 # Translate the English text to Spanish
-response = openai.Completion.create(
-  model="text-davinci-003",
+response = openai.completions.create(
+  model="gpt-3.5-turbo-instruct",
   prompt="Translate the following text to Spanish: {}".format(my_speech),
   max_tokens=100
 )
@@ -172,7 +169,10 @@ from IPython.display import Audio
 
 # Play the English audio
 Audio("english_speech.mp3")
+```
 
+
+```
 # Play the Spanish audio
 Audio("spanish_speech.mp3")
 ```

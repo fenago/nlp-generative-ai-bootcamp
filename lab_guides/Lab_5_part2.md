@@ -21,7 +21,6 @@ First things first, we need to set up our environment to communicate
 with OpenAI's API:
 
 ```
-!pip install openai
 import os
 
 # Prompt for the API key
@@ -66,36 +65,7 @@ display(Image(image_data))
 This code sends a request to generate an image of Daisy. We then fetch
 the image from the provided URL and display it in the notebook.
 
-# 2. Create a Mask for Inpainting 
-
-Inpainting is like digital magic --- it allows us to replace parts of an
-image with new content. Let's say we want to place Daisy in front of the
-Eiffel Tower. We would need a mask where Daisy is cut out. Here's how
-you could do it in theory:
-
-```
-# This is a pseudo-code placeholder for creating a mask:
-# mask = create_mask_function('Daisy.png')
-
-# In a real scenario, you would use image editing software to create a mask
-# where the areas to be replaced are transparent.
-
-# Then you would upload it and use it in the API request
-response = client.images.edit(
-  model="dall-e-2",
-  image=open("Daisy.png", "rb"),
-  mask=open("mask.png", "rb"),
-  prompt="a Belgian Malinois named Daisy in front of the Eiffel Tower",
-  n=1,
-  size="1024x1024"
-)
-
-# Displaying edited image in Google Colab
-edited_image_data = requests.get(response.data[0].url).content
-Image(BytesIO(edited_image_data))
-```
-
-# 3. Create a Variation 
+# 2. Create a Variation 
 
 Maybe we want to see different versions of a sunflower in various
 settings. This is where it starts:
@@ -111,7 +81,7 @@ import requests
 from IPython.display import Image as IPyImage, display
 
 # Load the JPEG image and ensure it's less than 4 MB as a PNG
-with PILImage.open("/content/Sunflower_sky_backdrop.jpg") as img:
+with PILImage.open("./Sunflower_sky_backdrop.jpg") as img:
     img = img.convert("RGBA")
     img_byte_arr = io.BytesIO()
     img.save(img_byte_arr, format='PNG')
@@ -143,7 +113,7 @@ for data in response.data:
 
 These are the two variations that were created from the original.
 
-# 4. Operating on Image Data 
+# 3. Operating on Image Data 
 
 Before you send an image to DALL·E, you might want to resize or process
 it. Here's how you can do that:
@@ -155,7 +125,7 @@ import requests
 from io import BytesIO
 
 # Let's resize an image of Daisy
-original_image = PILImage.open("/content/Sunflower_sky_backdrop.jpg")
+original_image = PILImage.open("./Sunflower_sky_backdrop.jpg")
 new_size = (256, 256)
 resized_image = original_image.resize(new_size)
 
@@ -179,19 +149,18 @@ display(IPyImage(data=resized_image_data))
 
 ![](./images/1_UB4f83EYP0-UoVOx4qAWaA.png)
 
-# 5. Error Handling 
+# 4. Error Handling 
 
 When dealing with API requests, we must be prepared for potential
 errors. Here's how to handle them:
 
 ```
-!pip install openai
 from openai import OpenAIError
 from PIL import Image
 import io
 
 # Convert the image to PNG and ensure it's less than 4 MB
-with Image.open("/content/Sunflower_sky_backdrop.jpg") as img:
+with Image.open("./Sunflower_sky_backdrop.jpg") as img:
     img = img.convert("RGBA")  # Convert to RGBA to support transparency in PNG
     img_byte_arr = io.BytesIO()
     img.save(img_byte_arr, format='PNG', optimize=True)  # PNG format and optimization
