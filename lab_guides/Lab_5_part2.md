@@ -1,12 +1,12 @@
 
-# Creativity with AI: Creating Images with DALL·E APIs in Google Colab 
+# Creativity with AI: Creating Images with DALL·E APIs
 
 
 ![](./images/1_8txPISBrcaXrpUFAl4w95w.jpg)
 
 Welcome to the mesmerizing world of AI-generated art! Today, we're going
 to explore how we can use OpenAI's DALL·E APIs to create, edit, and
-manipulate images directly from our Google Colab notebooks. We'll focus
+manipulate images directly from our notebooks. We'll focus
 on a Belgian Malinois named Daisy to illustrate our examples. Let's dive
 into how we can integrate DALL·E's capabilities into our Python code.
 
@@ -15,10 +15,10 @@ into how we can integrate DALL·E's capabilities into our Python code.
 
 Solution notebook for this lab can be found at `~/work/nlp-generative-ai-bootcamp/Lab05/creating-images-with-dall-e.ipynb`
 
-# Setting Up the OpenAI API in Google Colab 
+# Setting Up the OpenAI API
 
 First things first, we need to set up our environment to communicate
-with OpenAI's API. This is how you can do it in Google Colab:
+with OpenAI's API:
 
 ```
 !pip install openai
@@ -213,8 +213,8 @@ This try-except block will catch any exceptions thrown by the API call
 and print out details for debugging.
 
 
-With these examples, you now have a guide to generating and manipulating
-images with DALL·E in Google Colab, all featuring Daisy, our Belgian
+With these exercises, you now have a guide to generating and manipulating
+images with DALL·E in Jupyter, all featuring Daisy, our Belgian
 Malinois or a Sunflower. Remember, while the code provided here is for
 illustrative purposes, actual implementation may require further tweaks,
 especially when dealing with image files and API responses. Happy coding

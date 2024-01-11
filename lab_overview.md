@@ -33,9 +33,9 @@ Labs for this course are available at endpoints shared below. Update `<host-ip>`
 3. ##### Developing a Text Classifier
 		* http://<host-ip>/lab/workspaces/lab3_Classifier
 4. ##### Generative AI (APIs)
-		* http://<host-ip>/lab/workspaces/lab4_Text_Data
+		* http://<host-ip>/lab/workspaces/lab4_Generative_AI
 5. ##### Creating Assistants
-		* http://<host-ip>/lab/workspaces/lab5_Modeling
+		* http://<host-ip>/lab/workspaces/lab5_Creating_Assistants
 6. ##### Vector Representation
 		* http://<host-ip>/lab/workspaces/lab6_Vector
 7. ##### Text Generation and Summarization

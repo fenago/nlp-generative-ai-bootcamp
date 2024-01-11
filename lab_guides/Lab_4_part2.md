@@ -1,12 +1,8 @@
 
 
-# Transforming Text into Lifelike Spoken English and Spanish Audio with OpenAI's Audio API in Google Colab 
+# Lab: Speech to Text: Conversion Techniques
 
 
-
-Here is a sample of the ChatGPT generated speech:
-
-[https://github.com/fenago/datasets/raw/main/speech.mp3](https://github.com/fenago/datasets/raw/main/speech.mp3)
 
 # Introduction 
 
@@ -95,7 +91,7 @@ virtual assistants or online gaming.
 
 # Conclusion 
 
-OpenAI's Audio API in Google Colab offers a versatile and powerful
+OpenAI's Audio API offers a versatile and powerful
 platform for text-to-speech applications. Whether you're a content
 creator, educator, or developer, this tool provides an accessible way to
 enhance your projects with lifelike audio.
@@ -104,7 +100,7 @@ Remember to adhere to OpenAI's Usage Policies by informing end-users
 that the voice they hear is AI-generated. Embrace the future of digital
 audio with OpenAI!
 
-# Addendum: Translating and Generating Audio in English and Spanish in Google Colab 
+# Addendum: Translating and Generating Audio in English and Spanish
 
 # Preparing the English Text 
 
@@ -182,7 +178,7 @@ Audio("spanish_speech.mp3")
 ```
 
 This process allows you to translate text into Spanish using the OpenAI
-API and then generate audio in both languages in a Google Colab
+API and then generate audio in both languages in a Jupyter
 environment. It's a practical way to create bilingual audio content for
 various applications, enhancing both accessibility and engagement for
 diverse audiences.

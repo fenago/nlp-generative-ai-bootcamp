@@ -1,6 +1,6 @@
 
 
-# Exploring the Visual Intelligence of OpenAI's GPT-4 Vision with Python in Google Colab
+# Lab: OpenAI Vision APIs
 
 
 In the ever-evolving landscape of artificial intelligence, OpenAI's
@@ -10,7 +10,7 @@ analyze visual information. This integration marks a significant leap
 forward, transcending the traditional text-only limitations of language
 models. In this detailed exploration, we'll delve into the practical
 applications of GPT-4V, showcasing how it can be used to unlock new
-dimensions of image understanding in Google Colab.
+dimensions of image understanding in Python.
 
 # Introduction: A New Frontier in AI
 
@@ -76,7 +76,7 @@ response = client.chat.completions.create(
                 {
                     "type": "image_url",
                     "image_url": {
-                        "url": "https://raw.githubusercontent.com/fenago/datasets/main/IQR.png",
+                        "url": "https://raw.githubusercontent.com/fenago/nlp-generative-ai-bootcamp/main/IQR.png",
                     },
                 },
             ],
@@ -173,15 +173,12 @@ recognizing relationships between objects, and generating creative
 responses based on visual inputs. Its ability to process multiple images
 and understand their context collectively is particularly notable.
 
-# Conclusion and Further Exploration
+# Conclusion
 
 OpenAI's GPT-4 Vision model represents a significant stride in AI,
 bridging the gap between visual and textual understanding. Whether
 you're analyzing images from the web or local storage, GPT-4V offers a
 versatile tool for a wide range of applications.
-
-For more detailed information and advanced features, delve into OpenAI's
-[official documentation](https://platform.openai.com/docs/guides/vision).
 
 Embrace this new era of AI with OpenAI's GPT-4 Vision, where images and
 text converge to create a richer, more comprehensive understanding of

@@ -2,7 +2,6 @@
 
 # Lab: Creating Assistants Using OpenAI APIs
 
-![](./images/0_j0oQd8FXoIw9gLYf.jpg)
 
 # Unleashing the Power of AI in Learning Environments 
 
@@ -43,11 +42,11 @@ OpenAI's APIs.
 
 ## Code Breakdown: Environment Setup 
 
-First, launch google colab and upload your documents. In my Dr. Lee GPT,
-I uploaded two of my books: Natural Language Processing and Introduction
-to Data Analytics:
+First, upload your documents. Sample book has been provided already in following path:
+`~/work/nlp-generative-ai-bootcamp/Lab05/content/drlee/Data_Analytics_Final_v7.docx`
 
 ![](./images/1_yzawjS9ufJjiubwM5m_AwA.png)
+
 
 ```
 !pip install --upgrade openai
